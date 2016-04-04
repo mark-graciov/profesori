@@ -1,0 +1,117 @@
+.div4 {
+    float: left;
+}
+
+.parent_div {
+    display: flex;
+    height: 80px;
+    background-color: #34495E;
+}
+
+.child_div {
+    margin: auto
+}
+
+
+.parent_div_name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-end;
+    height: 160px;
+
+}
+
+.child_div_name {
+    align-self: flex-end;
+}
+
+.parent_div5 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.parent_div_vertical_buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.parent_div_events {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+
+.parent_div_vertical_reviews {
+    display: flex;
+    flex-direction: column;
+}
+
+.img_profile {
+    height: 160px;
+    left: 15px;
+}
+.img_profile img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+    height: 100%;
+}
+
+.img_profile img.top {
+    border: 1px solid #dddddd;
+}
+
+.img_profile img.bottom {
+    opacity: 0;
+}
+
+.img_profile:hover img.bottom {
+    opacity: 1;
+}
+
+.profile_icons {
+    width: 40px;
+    background-color: #ffffff;
+}
+
+.program_button_style {
+    width: 160px;
+    background-color: #34495E;
+}
+
+.program_button_style:hover {
+    background-color: #3367d6;
+}
+
+.books_button_style {
+    width: 160px;
+    margin-top: 5px;
+}
+
+.books_button_style:hover {
+    background-color: #3367d6;
+}
+
+.style_center_text {
+    padding-right: 5px;
+}
+
+.events_button_style:hover {
+    background-color: #3367d6;
+}
+
+.events_box_style {
+    width: 200px;
+}
+
+.review_box_style {
+    width: 200px;
+    right: 23px;
+}
+
