@@ -4,11 +4,15 @@
     <meta charset="UTF-8"/>
     <title>Home Page</title>
     <link rel="stylesheet" type="text/css" th:href="@{css/bootstrap.css}" href="../static/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" th:href="@{css/bootstrap-datepicker.min.css}"
+          href="../static/css/bootstrap-datepicker.min.css"/>
     <link rel="stylesheet" type="text/css" th:href="@{css/main.css}" href="../static/css/main.css"/>
-    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Arimo' />
+    <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Arimo'/>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script type="text/javascript" th:src="@{js/bootstrap.js}" src="../static/js/bootstrap.js"></script>
+    <script type="text/javascript" th:src="@{js/bootstrap-datepicker.min.js}" src="../static/js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" th:src="@{js/bootstrap-datepicker.ro.min.js}" src="../static/js/bootstrap-datepicker.ro.min.js"></script>
 </head>
 <body>
 
@@ -24,7 +28,8 @@
 
         <div class="col-md-1 col-md-offset-1">
             <div class="dropdown">
-                <button class="btn btn-link color_header header_menu menu_link" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                <button class="btn btn-link color_header header_menu menu_link" type="button" id="dropdownMenu1"
+                        data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="true">
                     Resurse
                     <span class="caret"></span>
@@ -42,7 +47,8 @@
 
         <div class="col-md-1 col-md-offset-1">
             <div class="dropdown">
-                <button class="btn btn-link color_header header_menu menu_link" type="button" id="dropdownMenu2" data-toggle="dropdown"
+                <button class="btn btn-link color_header header_menu menu_link" type="button" id="dropdownMenu2"
+                        data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="true">
                     Autentificare
                     <span class="caret"></span>
@@ -63,7 +69,8 @@
             <a href="#">
                 <span class="cf">
                     <img th:src="@{images/math.jpg}" src="../static/images/math.jpg" alt="" class="img-rounded top"/>
-                    <img th:src="@{images/text maths albastru.jpg}" src="../static/images/text maths albastru.jpg" alt="" class="img-rounded bottom"/>
+                    <img th:src="@{images/text maths albastru.jpg}" src="../static/images/text maths albastru.jpg"
+                         alt="" class="img-rounded bottom"/>
                 </span>
             </a>
         </div>
@@ -71,15 +78,18 @@
             <a href="#">
                 <span class="cf">
                     <img th:src="@{images/FIZ.jpg}" src="../static/images/FIZ.jpg" alt="" class="img-rounded top"/>
-                    <img th:src="@{images/text fizica albastru.jpg}" src="../static/images/text fizica albastru.jpg" alt="" class="img-rounded bottom"/>
+                    <img th:src="@{images/text fizica albastru.jpg}" src="../static/images/text fizica albastru.jpg"
+                         alt="" class="img-rounded bottom"/>
                 </span>
             </a>
         </div>
         <div class="col-md-2">
             <a href="#">
                     <span class="cf">
-                        <img th:src="@{images/CHIMIE.jpg}" src="../static/images/CHIMIE.jpg" alt="" class="img-rounded top"/>
-                        <img th:src="@{images/text chimie albastru.jpg}" src="../static/images/text chimie albastru.jpg" alt="" class="img-rounded bottom"/>
+                        <img th:src="@{images/CHIMIE.jpg}" src="../static/images/CHIMIE.jpg" alt=""
+                             class="img-rounded top"/>
+                        <img th:src="@{images/text chimie albastru.jpg}" src="../static/images/text chimie albastru.jpg"
+                             alt="" class="img-rounded bottom"/>
                     </span>
             </a>
         </div>
@@ -87,7 +97,8 @@
             <a href="#">
                     <span class="cf">
                         <img th:src="@{images/inf.jpg}" src="../static/images/inf.jpg" alt="" class="img-rounded top"/>
-                        <img th:src="@{images/text informatica albastru.jpg}" src="../static/images/text informatica albastru.jpg" alt="" class="img-rounded bottom"/>
+                        <img th:src="@{images/text informatica albastru.jpg}"
+                             src="../static/images/text informatica albastru.jpg" alt="" class="img-rounded bottom"/>
                     </span>
             </a>
         </div>
@@ -98,31 +109,38 @@
             <a href="#">
                     <span class="cf">
                         <img th:src="@{images/BIO.jpg}" src="../static/images/BIO.jpg" alt="" class="img-rounded top"/>
-                        <img th:src="@{images/text biologie albastru.jpg}" src="../static/images/text biologie albastru.jpg" alt="" class="img-rounded bottom"/>
+                        <img th:src="@{images/text biologie albastru.jpg}"
+                             src="../static/images/text biologie albastru.jpg" alt="" class="img-rounded bottom"/>
                     </span>
             </a>
         </div>
         <div class="col-md-2">
             <a href="#">
                     <span class="cf">
-                        <img th:src="@{images/geografie.jpg}" src="../static/images/geografie.jpg" alt="" class="img-rounded top"/>
-                        <img th:src="@{images/text geografie albastru.jpg}" src="../static/images/text geografie albastru.jpg" alt="" class="img-rounded bottom"/>
+                        <img th:src="@{images/geografie.jpg}" src="../static/images/geografie.jpg" alt=""
+                             class="img-rounded top"/>
+                        <img th:src="@{images/text geografie albastru.jpg}"
+                             src="../static/images/text geografie albastru.jpg" alt="" class="img-rounded bottom"/>
                     </span>
             </a>
         </div>
         <div class="col-md-2">
             <a href="#">
                     <span class="cf">
-                        <img th:src="@{images/istorie.jpg}" src="../static/images/istorie.jpg" alt="" class="img-rounded top"/>
-                        <img th:src="@{images/text istorie albastru.jpg}" src="../static/images/text istorie albastru.jpg" alt="" class="img-rounded bottom"/>
+                        <img th:src="@{images/istorie.jpg}" src="../static/images/istorie.jpg" alt=""
+                             class="img-rounded top"/>
+                        <img th:src="@{images/text istorie albastru.jpg}"
+                             src="../static/images/text istorie albastru.jpg" alt="" class="img-rounded bottom"/>
                     </span>
             </a>
         </div>
         <div class="col-md-2">
             <a href="#">
                     <span class="cf">
-                        <img th:src="@{images/limba romana.jpg}" src="../static/images/limba romana.jpg" alt="" class="img-rounded top"/>
-                        <img th:src="@{images/text limba romana text.jpg}" src="../static/images/text limba romana text.jpg" alt="" class="img-rounded bottom"/>
+                        <img th:src="@{images/limba romana.jpg}" src="../static/images/limba romana.jpg" alt=""
+                             class="img-rounded top"/>
+                        <img th:src="@{images/text limba romana text.jpg}"
+                             src="../static/images/text limba romana text.jpg" alt="" class="img-rounded bottom"/>
                     </span>
             </a>
         </div>
@@ -132,32 +150,41 @@
         <div class="col-md-2 col-md-offset-2">
             <a href="#">
                     <span class="cf">
-                        <img th:src="@{images/limbi straine.jpg}" src="../static/images/limbi straine.jpg" alt="" class="img-rounded top"/>
-                        <img th:src="@{images/text limbi straine albastru.jpg}" src="../static/images/text limbi straine albastru.jpg" alt="" class="img-rounded bottom"/>
+                        <img th:src="@{images/limbi straine.jpg}" src="../static/images/limbi straine.jpg" alt=""
+                             class="img-rounded top"/>
+                        <img th:src="@{images/text limbi straine albastru.jpg}"
+                             src="../static/images/text limbi straine albastru.jpg" alt="" class="img-rounded bottom"/>
                     </span>
             </a>
         </div>
         <div class="col-md-2">
             <a href="#">
                     <span class="cf">
-                        <img th:src="@{images/musica.jpg}" src="../static/images/musica.jpg" alt="" class="img-rounded top"/>
-                        <img th:src="@{images/text muzica albastru.jpg}" src="../static/images/text muzica albastru.jpg" alt="" class="img-rounded bottom"/>
+                        <img th:src="@{images/musica.jpg}" src="../static/images/musica.jpg" alt=""
+                             class="img-rounded top"/>
+                        <img th:src="@{images/text muzica albastru.jpg}" src="../static/images/text muzica albastru.jpg"
+                             alt="" class="img-rounded bottom"/>
                     </span>
             </a>
         </div>
         <div class="col-md-2">
             <a href="#">
                     <span class="cf">
-                        <img th:src="@{images/desen.jpg}" src="../static/images/desen.jpg" alt="" class="img-rounded top"/>
-                        <img th:src="@{images/text desen albastru.jpg}" src="../static/images/text desen albastru.jpg" alt="" class="img-rounded bottom"/>
+                        <img th:src="@{images/desen.jpg}" src="../static/images/desen.jpg" alt=""
+                             class="img-rounded top"/>
+                        <img th:src="@{images/text desen albastru.jpg}" src="../static/images/text desen albastru.jpg"
+                             alt="" class="img-rounded bottom"/>
                     </span>
             </a>
         </div>
         <div class="col-md-2">
             <a href="#">
                     <span class="cf">
-                        <img th:src="@{images/ed tehn.jpg}" src="../static/images/ed tehn.jpg" alt="" class="img-rounded top"/>
-                        <img th:src="@{images/text educatia tehnologica albastru.jpg}" src="../static/images/text educatia tehnologica albastru.jpg" alt="" class="img-rounded bottom"/>
+                        <img th:src="@{images/ed tehn.jpg}" src="../static/images/ed tehn.jpg" alt=""
+                             class="img-rounded top"/>
+                        <img th:src="@{images/text educatia tehnologica albastru.jpg}"
+                             src="../static/images/text educatia tehnologica albastru.jpg" alt=""
+                             class="img-rounded bottom"/>
                     </span>
             </a>
         </div>
